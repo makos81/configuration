@@ -10,3 +10,10 @@ spring:
       ddl-auto: update
       show-sql: false
       database: mysql
+info:
+  app:
+    name: "Accounts"
+    version: "0.0.1"
+    profile: ${spring.profiles.active}
+  serverInfo:
+    port: ${server.port}
