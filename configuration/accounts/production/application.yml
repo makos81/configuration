@@ -18,6 +18,6 @@ info:
   app:
     name: "Accounts"
     version: "0.0.1"
-    profile: production
+    profile: ${spring.profiles.active}
   serverInfo:
     port: ${server.port}
