@@ -10,6 +10,8 @@ spring:
       ddl-auto: update
       show-sql: false
       database: mysql
+  profiles:
+    active: production
 accounts:
   allow-get-accounts: true
 info:
