@@ -11,7 +11,7 @@ spring:
       show-sql: false
       database: mysql
 accounts:
-  allow-get-accounts: false
+  allow-get-accounts: true
 info:
   app:
     name: "Accounts"
