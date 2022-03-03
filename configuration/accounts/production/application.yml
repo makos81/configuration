@@ -10,14 +10,5 @@ spring:
       ddl-auto: update
       show-sql: false
       database: mysql
-  profiles:
-    active: production
 accounts:
   allow-get-accounts: true
-info:
-  app:
-    name: "Accounts"
-    version: "0.0.1"
-    profile: ${spring.profiles.active}
-  serverInfo:
-    port: ${server.port}
