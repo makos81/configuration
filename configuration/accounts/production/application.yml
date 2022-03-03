@@ -5,12 +5,13 @@ spring:
     url: jdbc:mysql://localhost:3306/mini_bank
     username: kodilla_user
     password: kodilla_password
-  allow-get-accounts: false
   jpa:
     hibernate:
       ddl-auto: update
       show-sql: false
       database: mysql
+accounts:
+  allow-get-accounts: false
 info:
   app:
     name: "Accounts"
